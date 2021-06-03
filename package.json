@@ -1,0 +1,22 @@
+{
+  "name": "firebase-storage-issue",
+  "version": "1.0.0",
+  "description": "How to reproduce firebase storage emulator authentication issue.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Anish Bhanwala",
+  "license": "ISC",
+  "dependencies": {
+    "@firebase/rules-unit-testing": "^1.3.3",
+    "@types/jest": "^26.0.23",
+    "jest": "^27.0.3",
+    "xhr2": "^0.2.1"
+  },
+  "jest": {
+    "setupFilesAfterEnv": [
+      "<rootDir>/setupTests.js"
+    ]
+  }
+}
